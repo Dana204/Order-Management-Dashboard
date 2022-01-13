@@ -2,7 +2,7 @@
  * @author Dana Campbell
  * @email danacam28@gmail.com
  * @create date 2022-01-12 08:48:17
- * @modify date 2022-01-13 13:06:17
+ * @modify date 2022-01-13 13:29:22
  * @desc [Recreating a dashboard design]
  */
 
@@ -202,7 +202,7 @@ header {
 	border-bottom-left-radius: 30px;
 }
 
-header div:first-child select {
+header > div:first-child select {
 	background: transparent;
 	border: 0;
 	color: var(--white);
@@ -620,7 +620,7 @@ main {
 		margin: 0;
 	}
 
-	header div:last-child {
+	header > div:last-child {
 		column-gap: 10px;
 	}
 
@@ -668,12 +668,22 @@ main {
 	header {
 		flex-direction: column;
 	}
+	
 	header > * {
+		-webkit-flex: 1 1 100%;
+		flex: 1 1 100%;
+	}
+
+	header > div:first-child {
+		margin-right: auto;
+	}
+	
+	header form {
 		width: 100%;
 	}
 	
 	header > div:last-child {
-		justify-content: end;
+		margin-left: auto;
 	}
 
 	header form div input {
