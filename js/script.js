@@ -1,5 +1,6 @@
 const toggleIcon = document.querySelector('.toggle-icon');
 const sidebar = document.querySelector('.sidebar');
+const sidebarMenu = document.querySelector('.sidebar__links');
 const sidebarLinks = document.querySelectorAll('.list');
 
 const tabs = document.querySelectorAll('.main-column2 ul li');
@@ -34,3 +35,13 @@ for (let i = 0; i < tabs.length; i++) {
         tabContent[i].classList.add('active');
     })
 }
+// sidebarLinks.forEach(link => link.addEventListener('click', () => {
+//     sidebar.classList.remove('active');
+//   }))
+
+document.onclick = function(e) {
+  if(e.target !== sidebarMenu && e.target !== toggleIcon) {
+    sidebar.classList.remove('active');
+  }
+}  
+
