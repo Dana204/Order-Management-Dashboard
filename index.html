@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+   <!-- TITLE -->
+    <title>Order Management Dashboard</title>
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <!-- Sidebar Title -->
+        <div class="sidebar__title">Wise <br> Advice</div>
+
+        <!-- Sidebar Links -->
+        <div class="sidebar__links">
+            <ul class="sidebar__links-middle">
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#"><ion-icon name="home-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>
+                <li class="list active">
+                    <b></b>
+                    <b></b>
+                    <a href="#"><ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#"><ion-icon name="document-text-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#"><ion-icon name="grid-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>
+                
+            </ul>
+            <ul>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#"><ion-icon name="notifications-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#"><ion-icon name="help-circle-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>
+                <li>
+                    <a href="#"><ion-icon name="log-out-outline" class="sidebar__links-icon"></ion-icon></a>
+                </li>            
+            </ul>
+        </div>
+    </div>
+    <!-- ./SIDEBAR -->
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <!-- Header -->
+        <header>
+            <div>
+                <select name="" id="">
+                    <option value="">CRM Services</option>
+                </select>
+            </div>
+            <form action="">
+                <div>
+                    <input type="search" name="" id="" placeholder="Search">
+                    <button type="submit">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+            </form>
+            <div>
+                <img src="../img/p1.jpg" alt="">
+                <ion-icon name="settings-outline"></ion-icon>
+                <ion-icon name="menu-outline" class="toggle-icon"></ion-icon>
+            </div>
+        </header>
+        <!-- ./Header -->
+
+        <!-- Main -->
+        <main>
+            <!-- Main Column 1 -->
+            <div class="main-column1">
+                <div>
+                    <h2>Key points</h2>
+                    <p>Holding Information</p>
+                    <p>End-to-end Analytics</p>
+                </div>
+
+                <div class="main-column1__radio">
+                    <h3>Flowchart board</h3>
+                    <div>
+                        <input type="radio" name="flow-board" id="radio1" checked>
+                        <label for="radio1">
+                            <div class="dot"></div>
+                            <span>Orders</span>
+                        </label>
+
+                        <input type="radio" name="flow-board" id="radio2">
+                        <label for="radio2">
+                            <div class="dot"></div>
+                            <span>Task</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Target Audience</p>
+                    <p>My Goals</p>
+                    <p>Conversion</p>
+                </div>
+
+                <div>
+                    <h2>Recommendations</h2>
+                    <p>Preset</p>
+                </div>
+                <div>
+                    <div>
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                        <span>Product</span>
+                    </div>
+                    <div>
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                        <span>Sales channel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Column 2 -->
+            <div class="main-column2">
+                <h2>Taskboard / orders</h2>
+                <ul>
+                    <li>New orders</li>
+                    <li>Not available</li>
+                    <li>Given advance</li>
+                    <li>To delivery</li>
+                    <li>Unaccept</li>
+                </ul>
+
+                <!-- Main Column2 Cards for tab 1 -->
+                <div class="main-column2__cards">
+                    <!-- Card 1 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Main Column2 Cards tab 2 -->
+                <div class="main-column2__cards">
+                    <!-- Card 1 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Main Column2 Cards tab 3 -->
+                <div class="main-column2__cards">
+                    <!-- Card 1 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Main Column2 Cards tab 4 -->
+                <div class="main-column2__cards">
+                    <!-- Card 1 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Main Column2 Cards tab 5 -->
+                <div class="main-column2__cards">
+                    <!-- Card 1 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="main-column2__card">
+                        <div class="main-column2__card-cart">
+                            <ion-icon name="cart-outline" class="sidebar__links-icon"></ion-icon>
+                            <span>Order #234</span>
+                        </div>
+                        <div class="main-column2__card-inner">
+                            <div class="main-column2__card-top">
+                               <div>
+                                    <span>John Snow</span>
+                                    <p>johndoe@gmail.com</p>
+                               </div>
+                               <div>
+                                    <img src="../img/p1.jpg" alt="">
+                               </div>
+                            </div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Stabilizer</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fumigator</td>
+                                        <td>$20</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total <span>$320</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <!-- ./Main -->
+    </div>
+    <!-- ./MAIN CONTENT -->
+    
+    
+    <!-- JS -->
+   <script src="../js/script.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
+
+
