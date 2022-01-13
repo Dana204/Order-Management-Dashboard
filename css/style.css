@@ -2,7 +2,7 @@
  * @author Dana Campbell
  * @email danacam28@gmail.com
  * @create date 2022-01-12 08:48:17
- * @modify date 2022-01-13 12:47:17
+ * @modify date 2022-01-13 13:01:30
  * @desc [Recreating a dashboard design]
  */
 
@@ -612,7 +612,7 @@ main {
 	
 	/** Header **/
 	header {
-		padding: 0.5em 1em;
+		padding: 0.8em 1em;
 		gap: 20px;
 	}
 	
@@ -670,6 +670,9 @@ main {
 	}
 	header > * {
 		width: 100%;
+	}
+	
+	header > div:last-child {
 		justify-content: end;
 	}
 
