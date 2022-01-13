@@ -2,7 +2,7 @@
  * @author Dana Campbell
  * @email danacam28@gmail.com
  * @create date 2022-01-12 08:48:17
- * @modify date 2022-01-13 13:29:22
+ * @modify date 2022-01-13 16:23:34
  * @desc [Recreating a dashboard design]
  */
 
@@ -233,6 +233,7 @@ header form div input {
 	height: 100%;
 	color: var(--gray2);
 	padding-left: 2.5em;
+	font-size: 1rem;
 }
 
 header form div button {
