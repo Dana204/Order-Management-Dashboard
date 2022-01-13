@@ -2,7 +2,7 @@
  * @author Dana Campbell
  * @email danacam28@gmail.com
  * @create date 2022-01-12 08:48:17
- * @modify date 2022-01-13 13:01:30
+ * @modify date 2022-01-13 13:04:29
  * @desc [Recreating a dashboard design]
  */
 
@@ -249,13 +249,13 @@ header form div button {
 	transition: width 0.5s ease-in-out;
 }
 
-header div:last-child {
+header > div:last-child {
 	display: flex;
 	align-items: center;
 	column-gap: 30px;
 }
 
-header div:last-child img {
+header > div:last-child img {
 	width: 2.4rem; height: 2.2rem;
 	border-radius: 50%;
 }
