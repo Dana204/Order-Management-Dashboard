@@ -2,7 +2,7 @@
  * @author Dana Campbell
  * @email danacam28@gmail.com
  * @create date 2022-01-12 08:48:17
- * @modify date 2022-01-16 15:45:28
+ * @modify date 2022-01-25 11:28:41
  * @desc [Recreating a dashboard design]
  */
 
@@ -455,8 +455,8 @@ main {
 
 .main-column2__cards.active {
 	display: grid;
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s none;
-	animation: slide-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
+	-webkit-animation: slide-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s none;
+	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
 }
 
 .main-column2__card-cart {
